@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: white;
+    padding: 1rem;
+}
+
+header > h1 {
+    color: #24272E;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+}
+
+.score-board {
+    margin: 1rem auto;
+    border: 0.12em solid white;
+    border-radius: 0.2em;
+    width: 6em;
+    padding: 1.1rem 1rem;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Asap', sans-serif;
+    position: relative;
+}
+
+.badge {
+    background-color: #E2584D;
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.2em 0.5rem;
+    font-family: 'Asap', sans-serif;
+}
+
+#user-label {
+    position: absolute;
+    top: 1.6rem;
+    left: -1.5rem;
+}
+
+#computer-label {
+    position: absolute;
+    top: 1.6rem;
+    right: -1.5rem;
+}
+
+.result {
+    font-size: 2rem;
+    color: white;
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Asap', sans-serif;
+}
+
+.choices {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.choice {
+    display: inline-block;
+    margin: 0 0.8rem;
+    border-radius: 50%;
+}
+
+.choice:hover {
+    cursor: pointer;
+}
+
+img {
+    border-radius: 50%;
+    border: 0.4rem solid white;
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-family: 'Asap', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.green-glow {
+    border: 0.4rem solid #4dcc7d;
+    box-shadow: 0 0 0.8rem #31b43a;
+}
+
+.red-glow {
+    border: 0.4rem solid #fc121b;
+    box-shadow: 0 0 0.8rem #d01115;
+}
+
+.gray-glow {
+    border: 0.4rem solid rgb(233, 233, 19);
+    box-shadow: 0 0 0.8rem yellow;
+}
+
+
+
+
